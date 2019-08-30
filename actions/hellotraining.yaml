@@ -1,0 +1,14 @@
+---
+name: hello9
+pack: testpack9
+runner_type: "python-script"
+description: hello python 
+enabled: true
+entry_point : hellotraining.py
+parameters: 
+  num1:
+    type: integer 
+    description: 1st parameter
+    required: true
+    position: 1
+  
